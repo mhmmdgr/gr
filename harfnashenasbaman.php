@@ -286,5 +286,19 @@ save("data/$from_id/file.txt","to");
     'parse_mode'=>'MarkDown'
         ]);
     }
-}     
+} elseif ($textmassage == 'فروارد همگانی' && $from_id == $Dev) {
+save("data/$from_id/file.txt","fortoall");
+         MrPHPBot('sendmessage',[
+        	'chat_id'=>$Dev,
+        	'text'=>"لطفا متن خود را بفرستید :",
+		'parse_mode'=>'MarkDown',
+    		]);
+}elseif ($step == 'fortoall') {
+$mem = fopen( "data/users.txt", 'r');
+    while( !feof( $mem)) {
+    $memuser = fgets( $mem);
+save("data/$from_id/file.txt","none");
+Forward($memuser, $chat_id,$message_id);
+    }
+}        
 ?>
