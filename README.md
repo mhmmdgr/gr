@@ -5,7 +5,7 @@
 
 ***Telegram ID*** : [NobLest](http://telegram.me/NobLest)
 
-***Bot ID*** : [NobLest](http://telegram.me/harfnashenasbemanbot)
+***Bot ID*** : [harfnashenasbeman](http://telegram.me/harfnashenasbemanbot)
 
 ***Instagram ID*** : [XDeveloperX](https://instagram.com/XDeveloperX)
 
